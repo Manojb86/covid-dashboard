@@ -1,0 +1,46 @@
+.summary-count-margin-bottom {
+    margin-bottom: 15px;
+}
+
+.summary-date {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.summary-circle {    
+   border-radius: 1.1em;
+   -moz-border-radius: 1.1em;
+   -webkit-border-radius: 1.1em;
+   color: #ffffff;
+   display: inline-block;
+   font-weight: bold;
+   line-height: 1.9em;
+   margin-right: 15px;
+   text-align: center;
+   width: 1.9em;
+   font-size: 100px;
+}
+
+.total-color {
+    background: #40ecf1;
+}
+
+.active-color {
+    background: #3399ec;
+}
+
+.recovered-color {
+    background: #50c990;
+}
+
+.critical-color {
+    background: #ecb041;
+}
+
+.death-color {
+    background: #f35d38;
+}
+
+.observation-color {
+    background: #d1d1d1;
+}
