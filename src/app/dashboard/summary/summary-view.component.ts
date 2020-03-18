@@ -9,12 +9,14 @@ import { SummaryData } from 'src/app/models/summaryData';
 })
 export class SummaryViewComponent{
     summaryData: any;
-    constructor(private healthApiService: HealthApiService) { }
+    constructor(private healthApiService: HealthApiService) { 
+        this.healthApiService.getCurrentStatistical().subscribe((data: {}) => {
+            this.summaryData = this.updateSummaryData(data);
+           });
+    }
 
     ngOnInit() {
-        this.healthApiService.getCurrentStatistical().subscribe((data: {}) => {
-         this.summaryData = this.updateSummaryData(data);
-        });
+       
     }
 
     updateSummaryData(statisticsData: { data?: any; }): SummaryData {
@@ -24,7 +26,7 @@ export class SummaryViewComponent{
             totalCases: statisticsData.data.local_total_cases + statisticsData.data.local_recovered,
             recoveredCases: statisticsData.data.local_recovered,
             totalDeaths: statisticsData.data.local_new_deaths,
-            updateDate: statisticsData.data.update_date_time,
+            dataUpdateDate: statisticsData.data.update_date_time,
             criticalCases: 0,
             underObservation: this.getUnderObservationCount(statisticsData.data.hospital_data)
         };

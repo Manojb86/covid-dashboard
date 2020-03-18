@@ -6,5 +6,5 @@ export interface SummaryData {
     newCases: number,
     totalDeaths: number,
     underObservation: number,
-    updateDate: string
+    dataUpdateDate: string
 }
