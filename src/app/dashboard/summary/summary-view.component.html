@@ -1,43 +1,43 @@
 <div class="row">
     <div class="col-sm summary-count-margin-bottom">
-        <span class="summary-date">Date:17/03/2020</span>
+        <span class="summary-date">{{summaryData.updateDate}}</span>
     </div>
 </div>
 <div class="row">
     <div class="col-sm">
         <h1>Total Cases</h1>
         <div>
-            <span class="summary-circle total-color">43</span>
+            <span class="summary-circle total-color">{{summaryData.totalCases}}</span>
         </div>        
       </div>
       <div class="col-sm">
         <h1> Active Cases</h1>
         <div>
-            <span class="summary-circle active-color">42</span>
+            <span class="summary-circle active-color">{{summaryData.activeCases}}</span>
         </div>     
       </div>
       <div class="col-sm">
         <h1> Recovered</h1>
         <div>
-            <span class="summary-circle recovered-color">1</span>
+            <span class="summary-circle recovered-color">{{summaryData.recoveredCases}}</span>
         </div>
       </div>
       <div class="col-sm">
-        <h1>Critical</h1>
+        <h1>New Cases</h1>
         <div>
-            <span class="summary-circle critical-color">0</span>
+            <span class="summary-circle critical-color">{{summaryData.newCases}}</span>
         </div> 
       </div>
       <div class="col-sm">
         <h1>Total Deaths</h1>
         <div>                
-        <span class="summary-circle death-color">0</span>
+        <span class="summary-circle death-color">{{summaryData.totalDeaths}}</span>
         </div>  
       </div>
       <div class="col-sm">
         <h1>Observation</h1>
         <div>                
-        <span class="summary-circle observation-color">212</span>
+        <span class="summary-circle observation-color">{{summaryData.underObservation}}</span>
         </div>  
       </div>
 </div>
