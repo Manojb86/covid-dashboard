@@ -8,7 +8,7 @@ import { CurrentStatistics } from '../models/currentStatisticas';
   providedIn: 'root'
 })
 export class HealthApiService {
-  apiURL = 'http://hpb.health.gov.lk/api';
+  apiURL = 'https://hpb.health.gov.lk/api';
 
   constructor(private httpClient: HttpClient) { }
 
