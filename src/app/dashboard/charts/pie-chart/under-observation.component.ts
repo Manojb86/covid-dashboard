@@ -32,21 +32,17 @@ export class UnderObservationComponent {
   }
   
   onSelect(data: any): void {
-    console.log('Item clicked', JSON.parse(JSON.stringify(data)));
   }
 
   onActivate(data: any): void {
-    console.log('Activate', JSON.parse(JSON.stringify(data)));
   }
 
   onDeactivate(data: any): void {
-    console.log('Deactivate', JSON.parse(JSON.stringify(data)));
   }
 
   getUnderObservationData(statisticsData: { data?: any; }) {
     let localCount: number = 0;
     let foreignersCount: number = 0;
-    console.log(statisticsData);
     statisticsData.data.hospital_data.forEach((element: { treatment_local: number; treatment_foreign: number; }) => {
         localCount += element.treatment_local;
         foreignersCount += element.treatment_foreign;
@@ -63,9 +59,6 @@ export class UnderObservationComponent {
         }
       ]
 
-      console.log(single);
       Object.assign(this, {single});
-      console.log(this);
-
     }
 }

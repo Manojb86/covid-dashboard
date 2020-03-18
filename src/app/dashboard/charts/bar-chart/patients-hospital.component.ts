@@ -37,12 +37,10 @@ export class PatientsHospitalComponent {
   }
 
   onSelect(event) {
-    console.log(event);
   }
 
   getUnderObservationData(statisticsData: { data?: any; }) {
     let single: any = [];
-    console.log(statisticsData);
     statisticsData.data.hospital_data.forEach((element) => {
         let countByHospital = {
             "name": element.hospital.name,
