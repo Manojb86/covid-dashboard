@@ -12,6 +12,7 @@ import { DailyCasesComponent } from './dashboard/charts/line/daily-cases.compone
 import { DataChartComponent } from './dashboard/charts/data-chart.component';
 import { UnderObservationComponent } from './dashboard/charts/pie-chart/under-observation.component';
 import { PatientsHospitalComponent } from './dashboard/charts/bar-chart/patients-hospital.component';
+import { DailyDiscoveredComponent } from './dashboard/charts/bar-chart/daily-discovered.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PatientsHospitalComponent } from './dashboard/charts/bar-chart/patients
     DailyCasesComponent,
     DataChartComponent,
     UnderObservationComponent,
-    PatientsHospitalComponent
+    PatientsHospitalComponent,
+    DailyDiscoveredComponent
   ],
   imports: [
     BrowserModule,
