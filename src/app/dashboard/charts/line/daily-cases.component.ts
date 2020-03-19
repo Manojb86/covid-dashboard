@@ -8,7 +8,7 @@ import { multi } from 'src/app/data/dailyCasesData';
 })
 export class DailyCasesComponent {
     multi: any[];
-    view: any[] = [1500, 600];
+    //view: any[] = [1500, 600];
   
     // options
     legend: boolean = true;

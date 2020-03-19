@@ -8,7 +8,7 @@ import { HealthApiService } from 'src/app/services/health-api.service';
 })
 export class UnderObservationComponent {
   single: any[];
-  view: any[] = [700, 400];
+  //view: any[] = [700, 400];
 
   // options
   gradient: boolean = true;

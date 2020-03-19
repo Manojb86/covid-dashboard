@@ -10,7 +10,7 @@ export class PatientsHospitalComponent {
   single: any[];
   multi: any[];
 
-  view: any[] = [700, 400];
+  //view: any[] = [700, 400];
 
   // options
   showXAxis = true;
