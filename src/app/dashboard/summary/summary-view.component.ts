@@ -28,7 +28,7 @@ export class SummaryViewComponent{
             totalDeaths: statisticsData.data.local_new_deaths,
             dataUpdateDate: statisticsData.data.update_date_time,
             criticalCases: 0,
-            underObservation: this.getUnderObservationCount(statisticsData.data.hospital_data)
+            underObservation: statisticsData.data.local_total_number_of_individuals_in_hospitals
         };
 
         return count;
