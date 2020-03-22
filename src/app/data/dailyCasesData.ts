@@ -53,6 +53,10 @@ export var multi = [
         {
           "name": "21/03/2020",
           "value": 77
+        },
+        {
+          "name": "22/03/2020",
+          "value": 80
         }
       ]
     },
@@ -110,6 +114,10 @@ export var multi = [
         },
         {
           "name": "21/03/2020",
+          "value": 0
+        },
+        {
+          "name": "22/03/2020",
           "value": 0
         }
       ]
