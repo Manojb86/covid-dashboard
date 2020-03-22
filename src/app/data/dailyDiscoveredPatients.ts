@@ -13,15 +13,15 @@ export var single = [
       },
       {
         "name": "12/03/2020",
-        "value": 1
+        "value": 2
       },
       {
         "name": "13/03/2020",
-        "value": 3
+        "value": 2
       },
       {
         "name": "14/03/2020",
-        "value": 5
+        "value": 6
       },
       {
         "name": "15/03/2020",
@@ -29,7 +29,7 @@ export var single = [
       },
       {
         "name": "16/03/2020",
-        "value": 9
+        "value": 10
       },
       {
         "name": "17/03/2020",
@@ -41,10 +41,14 @@ export var single = [
       },
       {
         "name": "19/03/2020",
-        "value": 7
+        "value": 13
       },
       {
         "name": "20/03/2020",
-        "value": 11
+        "value": 6
+      },
+      {
+        "name": "21/03/2020",
+        "value": 5
       }
   ];
