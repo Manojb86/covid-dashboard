@@ -1,44 +1,46 @@
 <div class="row summary-count-margin-bottom">
     <div class="col-sm">
-      <span class="summary-date">Data Last Updated: {{summaryData?.dataUpdateDate}}</span>
+      <span class="lead">Data Last Updated: {{summaryData?.dataUpdateDate}}</span>
     </div>
     <div class="col-sm">
-      <span class="summary-date">Data Source: Health Promotion Bureau Sri Lanka(http://hpb.health.gov.lk/)</span>
+      <div><span class="lead">Data Source:</span></div>
+      <div><span>Health Promotion Bureau Sri Lanka(http://hpb.health.gov.lk/)</span></div>
+      <div><span>Epidemiology Unit, MOH (http://www.epid.gov.lk/)</span></div>
     </div>
 </div>
 <div class="row">
     <div class="col-sm">
-        <h1>Total Cases</h1>
+        <span class="lead text-center"><strong>Total Cases</strong></span>
         <div>
             <span class="summary-circle total-color">{{summaryData?.totalCases}}</span>
         </div>        
       </div>
       <div class="col-sm">
-        <h1> Active Cases</h1>
+        <span class="lead text-center"><strong>Active Cases</strong> </span>
         <div>
             <span class="summary-circle active-color">{{summaryData?.activeCases}}</span>
         </div>     
       </div>
       <div class="col-sm">
-        <h1> Recovered</h1>
+        <span class="lead"><strong>Recovered</strong></span>
         <div>
             <span class="summary-circle recovered-color">{{summaryData?.recoveredCases}}</span>
         </div>
       </div>
       <div class="col-sm">
-        <h1>New Cases</h1>
+        <span class="lead"><strong>New Cases</strong></span>
         <div>
             <span class="summary-circle critical-color">{{summaryData?.newCases}}</span>
         </div> 
       </div>
       <div class="col-sm">
-        <h1>Total Deaths</h1>
+        <span class="lead"><strong>Total Deaths</strong></span>
         <div>                
         <span class="summary-circle death-color">{{summaryData?.totalDeaths}}</span>
         </div>  
       </div>
       <div class="col-sm">
-        <h1>Observation</h1>
+        <span class="lead"><strong>Observation</strong></span>
         <div>                
         <span class="summary-circle observation-color">{{summaryData?.underObservation}}</span>
         </div>  
