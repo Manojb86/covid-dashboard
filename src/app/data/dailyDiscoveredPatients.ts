@@ -57,10 +57,10 @@ export var single = [
       },
       {
         "name": "23/03/2020",
-        "value": 10
+        "value": 12
       },
       {
         "name": "24/03/2020",
-        "value": 2
+        "value": 3
       }
   ];
