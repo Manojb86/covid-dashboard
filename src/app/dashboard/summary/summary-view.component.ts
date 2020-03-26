@@ -22,12 +22,13 @@ export class SummaryViewComponent{
     updateSummaryData(statisticsData: { data?: any; }): SummaryData {
         let count: SummaryData = {
             newCases: statisticsData.data.local_new_cases,
-            activeCases: statisticsData.data.local_total_cases,
-            totalCases: statisticsData.data.local_total_cases + statisticsData.data.local_recovered,
+            activeCases: statisticsData.data.local_active_cases,
+            totalCases: statisticsData.data.local_total_cases,
             recoveredCases: statisticsData.data.local_recovered,
             totalDeaths: statisticsData.data.local_new_deaths,
             dataUpdateDate: statisticsData.data.update_date_time,
-            criticalCases: 0,
+            totalDiscoveredCases: statisticsData.data.local_total_cases + statisticsData.data.local_recovered + statisticsData.data.local_new_deaths,
+            criticalCases: 3,
             underObservation: statisticsData.data.local_total_number_of_individuals_in_hospitals
         };
 

@@ -1,6 +1,7 @@
 <div class="row summary-count-margin-bottom">
     <div class="col-sm">
-      <span class="lead">Data Last Updated: {{summaryData?.dataUpdateDate}}</span>
+      <span class="lead">Data Last Updated:</span>
+      <span style="margin-left: 2px;">{{summaryData?.dataUpdateDate}} (GMT+5:30)</span>
     </div>
     <div class="col-sm">
       <div><span class="lead">Data Source:</span></div>
@@ -30,8 +31,14 @@
       <div class="col-sm">
         <span class="lead"><strong>New Cases</strong></span>
         <div>
-            <span class="summary-circle critical-color">{{summaryData?.newCases}}</span>
+            <span class="summary-circle new-color">{{summaryData?.newCases}}</span>
         </div> 
+      </div>
+      <div class="col-sm">
+        <span class="lead"><strong>Critical</strong></span>
+        <div>                
+        <span class="summary-circle critical-color">{{summaryData?.criticalCases}}</span>
+        </div>  
       </div>
       <div class="col-sm">
         <span class="lead"><strong>Total Deaths</strong></span>

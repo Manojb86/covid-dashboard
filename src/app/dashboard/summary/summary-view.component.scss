@@ -19,7 +19,7 @@
    margin-right: 15px;
    text-align: center;
    width: 1.9em;
-   font-size: 75px;
+   font-size: 50px;
 }
 
 .total-color {
@@ -34,8 +34,17 @@
     background: #50c990;
 }
 
-.critical-color {
+.new-color {
     background: #ecb041;
+}
+
+.critical-color {
+    background: #a16a04;
+}
+
+
+.discovered-color {
+    background: #023ca8;
 }
 
 .death-color {
@@ -43,5 +52,5 @@
 }
 
 .observation-color {
-    background: #d1d1d1;
+    background: #afafaf;
 }
