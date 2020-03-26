@@ -68,7 +68,11 @@ export var multi = [
         },
         {
           "name": "25/03/2020",
-          "value": 0
+          "value": 102
+        },
+        {
+          "name": "26/03/2020",
+          "value": 104
         }
       ]
     },
@@ -86,63 +90,67 @@ export var multi = [
         },
         {
           "name": "11/03/2020",
-          "value": 0
+          "value": 1
         },
         {
           "name": "12/03/2020",
-          "value": 0
+          "value": 1
         },
         {
           "name": "13/03/2020",
-          "value": 0
+          "value": 1
         },
         {
           "name": "14/03/2020",
-          "value": 0
+          "value": 1
         },
         {
           "name": "15/03/2020",
-          "value": 0
+          "value": 1
         },
         {
           "name": "16/03/2020",
-          "value": 0
+          "value": 1
         },
         {
           "name": "17/03/2020",
-          "value": 0
+          "value": 1
         },
         {
           "name": "18/03/2020",
-          "value": 0
+          "value": 1
         },
         {
           "name": "19/03/2020",
-          "value": 0
+          "value": 1
         },
         {
           "name": "20/03/2020",
-          "value": 0
+          "value": 1
         },
         {
           "name": "21/03/2020",
-          "value": 0
+          "value": 1
         },
         {
           "name": "22/03/2020",
-          "value": 0
+          "value": 1
         },
         {
           "name": "23/03/2020",
-          "value": 1
+          "value": 2
         },
         {
           "name": "24/03/2020",
-          "value": 0
+          "value": 2
         },
         {
           "name": "25/03/2020",
-          "value": 1
+          "value": 3
+        },
+        {
+          "name": "26/03/2020",
+          "value": 6
         }
       ]
     }
