@@ -28,7 +28,7 @@ export class SummaryViewComponent{
             totalDeaths: statisticsData.data.local_new_deaths,
             dataUpdateDate: statisticsData.data.update_date_time,
             totalDiscoveredCases: statisticsData.data.local_total_cases + statisticsData.data.local_recovered + statisticsData.data.local_new_deaths,
-            criticalCases: 3,
+            criticalCases: 2,
             underObservation: statisticsData.data.local_total_number_of_individuals_in_hospitals
         };
 

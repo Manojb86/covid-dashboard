@@ -70,5 +70,13 @@ export var single = [
       {
         "name": "26/03/2020",
         "value": 4
+      },
+      {
+        "name": "27/03/2020",
+        "value": 0
+      },
+      {
+        "name": "28/03/2020",
+        "value": 4
       }
   ];
