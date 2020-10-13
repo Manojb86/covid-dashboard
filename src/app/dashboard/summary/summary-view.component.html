@@ -11,46 +11,52 @@
 </div>
 <div class="row">
     <div class="col-sm">
-        <span class="lead text-center"><strong>Total Cases</strong></span>
-        <div>
-            <span class="summary-circle total-color">{{summaryData?.totalCases}}</span>
-        </div>        
+      <div class="card text-white bg-primary mb-3" style="max-width: 11rem;">
+        <div class="card-header">Total Cases</div>
+        <div class="card-body">
+          <h2 class="card-title">{{summaryData?.totalCases}}</h2>
+        </div>
+      </div>
+      </div>      
+      <div class="col-sm">
+        <div class="card text-white bg-secondary mb-3" style="max-width: 11rem;">
+          <div class="card-header">Active Cases</div>
+          <div class="card-body">
+            <h2 class="card-title">{{summaryData?.activeCases}}</h2>
+          </div>
+        </div>   
       </div>
       <div class="col-sm">
-        <span class="lead text-center"><strong>Active Cases</strong> </span>
-        <div>
-            <span class="summary-circle active-color">{{summaryData?.activeCases}}</span>
-        </div>     
+        <div class="card text-white bg-success mb-3" style="max-width: 11rem;">
+          <div class="card-header">Recovered Cases</div>
+          <div class="card-body">
+            <h2 class="card-title">{{summaryData?.recoveredCases}}</h2>
+          </div>
+        </div>   
       </div>
       <div class="col-sm">
-        <span class="lead"><strong>Recovered</strong></span>
-        <div>
-            <span class="summary-circle recovered-color">{{summaryData?.recoveredCases}}</span>
+        <div class="card text-white bg-warning mb-3" style="max-width: 11rem;">
+          <div class="card-header">New Cases</div>
+          <div class="card-body">
+            <h2 class="card-title">{{summaryData?.newCases}}</h2>
+          </div>
         </div>
       </div>
       <div class="col-sm">
-        <span class="lead"><strong>New Cases</strong></span>
-        <div>
-            <span class="summary-circle new-color">{{summaryData?.newCases}}</span>
+        <div class="card text-white bg-danger mb-3" style="max-width: 11rem;">
+          <div class="card-header">Total Deaths</div>
+          <div class="card-body">
+            <h2 class="card-title">{{summaryData?.totalDeaths}}</h2>
+          </div>
         </div> 
       </div>
-      <!-- <div class="col-sm">
-        <span class="lead"><strong>Critical</strong></span>
-        <div>                
-        <span class="summary-circle critical-color">{{summaryData?.criticalCases}}</span>
-        </div>  
-      </div> -->
       <div class="col-sm">
-        <span class="lead"><strong>Total Deaths</strong></span>
-        <div>                
-        <span class="summary-circle death-color">{{summaryData?.totalDeaths}}</span>
-        </div>  
-      </div>
-      <div class="col-sm">
-        <span class="lead"><strong>Observation</strong></span>
-        <div>                
-        <span class="summary-circle observation-color">{{summaryData?.underObservation}}</span>
-        </div>  
+        <div class="card text-white bg-info mb-3" style="max-width: 11rem;">
+          <div class="card-header">Under Observation</div>
+          <div class="card-body">
+            <h2 class="card-title">{{summaryData?.underObservation}}</h2>
+          </div>
+        </div> 
       </div>
 </div>
 
